@@ -1,0 +1,15 @@
+step "echo-test-text" {
+    name = "Echo test text"
+
+    action {
+        action_type = "Octopus.Script"
+        properties = {
+            Octopus.Action.RunOnServer = "True"
+            Octopus.Action.Script.ScriptBody = <<-EOT
+                echo "Hello from GitHub Config as Code"
+                EOT
+            Octopus.Action.Script.ScriptSource = "Inline"
+            Octopus.Action.Script.Syntax = "Bash"
+        }
+    }
+}
