@@ -6,7 +6,7 @@ step "echo-test-text" {
         properties = {
             Octopus.Action.RunOnServer = "True"
             Octopus.Action.Script.ScriptBody = <<-EOT
-                Write-Output "Hello from GitHub Config as Code"
+                Write-Output "#{Message}"
                 EOT
             Octopus.Action.Script.ScriptSource = "Inline"
             Octopus.Action.Script.Syntax = "PowerShell"
