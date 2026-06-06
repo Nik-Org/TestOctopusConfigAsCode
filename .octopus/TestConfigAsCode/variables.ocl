@@ -6,6 +6,6 @@ variable "SomeNormalValue" {
     value "some value" {}
 }
 
-variable "NetproVariable" {
+variable "NetProVariable" {
     value "net" {}
 }
