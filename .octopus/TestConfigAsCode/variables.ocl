@@ -5,3 +5,7 @@ variable "Message" {
 variable "SomeNormalValue" {
     value "some value" {}
 }
+
+variable "NetProVariable" {
+    value "net" {}
+}
