@@ -1,11 +1,11 @@
-variable "Message" {
-    value "Hello from an Octopus variable in GitHub Config as Code" {}
-}
-
 variable "SomeNormalValue" {
     value "some value" {}
 }
 
 variable "NetProVariable" {
     value "net" {}
+}
+
+variable "Message" {
+    value "Hello from variable changed by netpro" {}
 }
