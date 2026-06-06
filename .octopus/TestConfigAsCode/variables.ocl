@@ -1,3 +1,7 @@
 variable "Message" {
     value "Hello from an Octopus variable in GitHub Config as Code" {}
 }
+
+variable "SomeNormalValue" {
+    value "some value" {}
+}
